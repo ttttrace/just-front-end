@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrap{
+	height: 752px;
+	width: 1366px;
+	margin: auto;
+}
+#nav{
+	height:102px; 
+	background-image:url(../imgs/nav.png);
+}
+.menubar-left{
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	padding-left: 227px;
+	float: left;
+}
+.menubar-right{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	padding-left: 140px;
+	float: left;
+}
+#nav li{
+	font-family:Microsoft YaHei;
+	display: inline-block;
+	font-size: 18px;
+	text-decoration:none;
+}
+#nav >ul>li a:link, #nav>ul>li a:visited
+{
+	display:block;  
+	color:#FFFFFF;
+	padding:39.5px 30px;
+	text-align:center;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+#nav>ul>li a:hover,#nav>ul>li a:active
+{
+	background-color:#FFFFFF;
+	color: #934F0E;
+}
+#nav>ul>li>ul{
+	position: absolute;
+	display: none;
+	z-index: 1;
+}
+#nav>ul>li>ul>li{
+	float: none;
+	display: block;
+}
+#nav>ul>li:hover ul{
+	display: block;	
+}
+#nav>ul>li>ul>li>a:link, #nav>ul>li>ul>li>a:visited{
+	height: 50px;
+	line-height: 50px;
+	width: 72px;
+    background-color: #934F0E;
+    text-align: center;
+    display: block;
+    padding: 0px 30px;
+}
+#nav > ul > li > ul > li > a:hover,#nav>ul>li>ul>li>a:active{
+    color: #934F0E ;
+    background-color: #FFF;
+}
+.box{
+	width: 1366px;
+	height: 650px;
+	margin: auto;
+}
+.banner{
+    width: 1366px;
+    height: 650px;
+    position: relative;
+    overflow: hidden;
+}
+.banner img{
+  	width: 1366px;
+    height: 650px;
+    vertical-align: top;
+}
+.banner ul{
+    width: 1200%;
+    position: absolute;
+    list-style: none;
+    left:0px;
+    top: 0px;
+}
+.banner li{
+    float: left;
+}
+#about{
+	position: absolute;
+	top: 0;
+	right: 210px;
+	display: none;
+}
+#arr span{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    margin-top: -20px;
+    cursor: pointer;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-family: '黑体';
+    font-size: 200px;
+    color: #FFF;
+}
+#arr #right {
+    right: 70px;
+    left: auto;
+}
+table{
+	text-align: center;
+}

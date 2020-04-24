@@ -1,0 +1,11 @@
+.wrap{
+	width: 1366px;
+	height: 560px;
+	background-color: #F7F6F4;
+	margin: auto;
+}
+.pic{
+	width: 748px;
+	height: 100%;
+	margin: auto;
+}

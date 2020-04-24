@@ -1,0 +1,163 @@
+.wrap{
+	width: 1366px;
+	height: 1415px;
+	font-family: Microsoft YaHei;
+	margin: auto;
+	background-color: #F7F6F4;
+}
+.content{
+	width: 980px;
+	height: 100%;
+	margin: auto;
+	line-height: 24px;
+	position: relative;
+}
+.main-l{
+	width: 442px;
+	height: 100%;
+	float: left;
+	font-size: 14px;
+	padding-right: 2px;
+	text-align: right;
+}
+.line{
+	width: 94px;
+	height: 100%;
+	float: left;
+}
+.main-r{
+	width: 442px;
+	height: 100%;
+	float: left;
+	font-size: 14px;
+}
+.pic-1{
+	position: relative;
+	padding-top: 60px;
+	width: 442px;
+	height: 338px;
+}
+.white{
+	width: 75px;
+	height: 48px;
+	opacity: 0.5;
+	position: absolute;
+	right: 0px;
+	bottom: 6px;
+}
+.num{
+	opacity: 1;
+	font-size: 25px;
+	position: absolute;
+	right: 15px;
+	bottom: 11px;
+}
+.zhejiang{
+	padding-top: 40px;
+}
+.guangdong{
+	padding-top: 40px;
+}
+.henan{
+	padding-top: 63px;
+}
+.fujian{
+	padding-top: 110px;
+}
+.neimenggu{
+	padding-top: 87px;
+}
+.pic-2{
+	padding-top: 248px;
+	width: 442px;
+	height: 338px;
+}
+.shanxi{
+	padding-top: 40px;
+}
+.jiangsu{
+	padding-top: 125px;
+}
+.hubei{
+	padding-top: 85px;
+}
+.gansu{
+	padding-top: 85px;
+}
+.shate{
+	padding-top: 110px;
+}
+span{
+	font-weight: bold;
+}
+#myImg1,#myImg2{
+    transition: 0.3s;
+}
+#myImg1:hover,#myImg2:hover{
+	opacity: 0.7;
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: absolute; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    right: 0;
+    top: 0;
+    width: 1018px; /* Full width */
+    height: 640px; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+}
+ 
+/* 图片 */
+.modal-content {
+    padding-top: 110px;
+    margin: auto;
+    display:block; 
+    width: 600px;
+    height: 423px;
+    overflow: none;
+}
+ 
+/* 添加动画 */
+.modal-content{ 
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+ 
+/* 关闭按钮 */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+ 
+.close:hover,.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.left,.right{
+    cursor: pointer;
+    color: #fff;
+    font-size: 180px;
+    position: absolute;
+    top: 300px;
+    font-weight: bold;
+    font-family: "黑体";
+}
+.left{
+    left: 25px;
+}
+.right{
+    right: 25px;
+}
