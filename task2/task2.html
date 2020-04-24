@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="task2.css">
+	<meta charset="utf-8">
+	<title>学生管理系统</title>
+</head>
+<body>
+	<div class="wrap">
+		<div class="title">
+			<div class="hr"><hr class="hr-left"></div>
+			<div id="title">学生信息管理系统</div>
+			<div class="hr"><hr class="hr-right"></div>
+		</div>
+		<input type="button" id="add" value="增加">
+		<input type="button" id="del" value="删除">
+		<br><br>
+		<table id="head" cellspacing="0">
+			<tr id="t-h">
+				<th><input id="checkAll" name="check" type="checkbox" onclick="checkAll()"  value="0"></th>
+				<th>序号</th>
+				<th>学号</th>
+				<th>姓名</th>
+				<th>学院</th>
+				<th>专业</th>
+				<th>年级</th>
+				<th>班级</th>
+				<th>年龄</th>
+				<th>操作</th>
+			</tr>
+		</table>
+		<div id="bottom">
+    		第<span id="span1">1</span>页,共<span id="span2">27</span>条,(每页显示10条)
+    		<input type="button" id="up" value="上一页">
+			<input type="button" id="down" value="下一页">
+    	</div>
+    	<div id="form">
+    		<div class="head" id="h-title">&nbsp&nbsp&nbsp增加学生信息</div>
+    		<div class="form">
+    			<label>学号<input name="info" type="text"></label><br>
+            	<label>姓名<input name="info" type="text"></label><br>
+            	<label>学院<input name="info" type="text"></label><br>
+            	<label>专业<input name="info" type="text"></label><br>
+            	<label>年级<input name="info" type="text"></label><br>
+            	<label>班级<input name="info" type="text"></label><br>
+            	<label>年龄<input name="info" type="text"></label><br>
+    		</div>
+    		<div class="btn">
+    			<input type="button" id="btn_1" class="btn_1" name="btn" value="提交">
+            	<input type="button" id="btn_2" class="btn_2" name="back" value="取消">
+    		</div>
+    	</div>
+	</div>
+
+</body>
+<script src="task2.js"></script>
+</html>
